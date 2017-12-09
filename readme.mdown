@@ -1,7 +1,7 @@
 #Website Hidroponik Sragen
 
 ### Acknowledgments
-* https://github.com/rianrajagede/flask-search.git
+https://github.com/insanelogic29/hidroponiksragen/tree/nithata
 
 # Proyek Sistem Informasi
 Proyek Akhir Semester 5
