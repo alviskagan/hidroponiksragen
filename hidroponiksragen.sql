@@ -99,7 +99,7 @@ CREATE TABLE `hs_options` (
   `option_name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `option_value` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `autoload` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'yes'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=354 ;
 
 --
 -- Dumping data for table `hs_options`
@@ -277,7 +277,7 @@ CREATE TABLE `hs_postmeta` (
   `post_id` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
   `meta_key` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `meta_value` longtext COLLATE utf8mb4_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=288 ;
 
 --
 -- Dumping data for table `hs_postmeta`
@@ -641,7 +641,7 @@ CREATE TABLE `hs_posts` (
   `post_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'post',
   `post_mime_type` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `comment_count` bigint(20) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=146 ;
 
 --
 -- Dumping data for table `hs_posts`
@@ -738,7 +738,7 @@ INSERT INTO `hs_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (108, 1, '2017-12-15 14:21:50', '2017-12-15 07:21:50', '', 'Kunjungan 24 sept_171102_0042', '', 'inherit', 'open', 'closed', '', 'kunjungan-24-sept_171102_0042', '', '', '2017-12-15 14:21:50', '2017-12-15 07:21:50', '', 0, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/Kunjungan-24-sept_171102_0042.jpg', 0, 'attachment', 'image/jpeg', 0),
 (109, 1, '2017-12-15 14:22:02', '2017-12-15 07:22:02', '', 'Kunjungan 24 sept_171102_0050', '', 'inherit', 'open', 'closed', '', 'kunjungan-24-sept_171102_0050', '', '', '2017-12-15 14:22:02', '2017-12-15 07:22:02', '', 0, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/Kunjungan-24-sept_171102_0050.jpg', 0, 'attachment', 'image/jpeg', 0),
 (110, 1, '2017-12-15 14:22:14', '2017-12-15 07:22:14', '', 'Sosialisasi 15917_171102_0028', 'Foto bersama saat sosialisasi', 'inherit', 'open', 'closed', '', 'sosialisasi-15917_171102_0028', '', '', '2017-12-15 14:36:22', '2017-12-15 07:36:22', '', 0, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/Sosialisasi-15917_171102_0028.jpg', 0, 'attachment', 'image/jpeg', 0),
-(111, 1, '2017-12-15 14:22:26', '2017-12-15 07:22:26', '', 'Sosialisasi 15917_171102_0032', '', 'inherit', 'open', 'closed', '', 'sosialisasi-15917_171102_0032', '', '', '2017-12-15 14:22:26', '2017-12-15 07:22:26', '', 0, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/Sosialisasi-15917_171102_0032.jpg', 0, 'attachment', 'image/jpeg', 0),
+(111, 1, '2017-12-15 14:22:26', '2017-12-15 07:22:26', '', 'Sosialisasi 15917_171102_0032', '', 'inherit', 'open', 'closed', '', 'sosialisasi-15917_171102_0032', '', '', '2017-12-16 15:06:13', '2017-12-16 08:06:13', '', 1, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/Sosialisasi-15917_171102_0032.jpg', 0, 'attachment', 'image/jpeg', 0),
 (112, 1, '2017-12-15 14:22:38', '2017-12-15 07:22:38', '', 'WhatsApp Image 2017-10-17 at 16.35.52', '', 'inherit', 'open', 'closed', '', 'whatsapp-image-2017-10-17-at-16-35-52', '', '', '2017-12-15 14:22:38', '2017-12-15 07:22:38', '', 0, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/WhatsApp-Image-2017-10-17-at-16.35.52.jpeg', 0, 'attachment', 'image/jpeg', 0),
 (113, 1, '2017-12-15 14:22:46', '2017-12-15 07:22:46', '', 'WhatsApp Image 2017-11-02 at 05.38.00', '', 'inherit', 'open', 'closed', '', 'whatsapp-image-2017-11-02-at-05-38-00', '', '', '2017-12-15 14:22:46', '2017-12-15 07:22:46', '', 0, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/WhatsApp-Image-2017-11-02-at-05.38.00.jpeg', 0, 'attachment', 'image/jpeg', 0),
 (114, 1, '2017-12-15 14:22:52', '2017-12-15 07:22:52', '', 'WhatsApp Image 2017-11-03 at 19.19.23', '', 'inherit', 'open', 'closed', '', 'whatsapp-image-2017-11-03-at-19-19-23', '', '', '2017-12-15 14:22:52', '2017-12-15 07:22:52', '', 0, 'http://localhost/hidroponiksragen/wp-content/uploads/2017/12/WhatsApp-Image-2017-11-03-at-19.19.23.jpeg', 0, 'attachment', 'image/jpeg', 0),
@@ -826,7 +826,6 @@ INSERT INTO `hs_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (196, 1, '2017-12-16 19:23:29', '2017-12-16 12:23:29', '{\n    \"nav_menus_created_posts\": {\n        \"value\": [\n            195\n        ],\n        \"type\": \"option\",\n        \"user_id\": 1\n    },\n    \"nav_menu_item[-1588684008]\": {\n        \"value\": {\n            \"object_id\": 195,\n            \"object\": \"page\",\n            \"menu_item_parent\": 0,\n            \"position\": 10,\n            \"type\": \"post_type\",\n            \"title\": \"Greenhouse\",\n            \"url\": \"http://localhost/hidroponiksragen/?page_id=195\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"Greenhouse\",\n            \"nav_menu_term_id\": 2,\n            \"_invalid\": false,\n            \"type_label\": \"Laman\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'b16b2fe7-37d4-4ca8-8365-cabcd2904ea3', '', '', '2017-12-16 19:23:29', '2017-12-16 12:23:29', '', 0, 'http://localhost/hidroponiksragen/2017/12/16/b16b2fe7-37d4-4ca8-8365-cabcd2904ea3/', 0, 'customize_changeset', '', 0),
 (197, 1, '2017-12-16 19:23:30', '2017-12-16 12:23:30', '', 'Greenhouse', '', 'inherit', 'closed', 'closed', '', '195-revision-v1', '', '', '2017-12-16 19:23:30', '2017-12-16 12:23:30', '', 195, 'http://localhost/hidroponiksragen/2017/12/16/195-revision-v1/', 0, 'revision', '', 0),
 (198, 1, '2017-12-16 19:23:30', '2017-12-16 12:23:30', ' ', '', '', 'publish', 'closed', 'closed', '', '198', '', '', '2017-12-16 19:23:30', '2017-12-16 12:23:30', '', 0, 'http://localhost/hidroponiksragen/2017/12/16/198/', 10, 'nav_menu_item', '', 0);
-
 -- --------------------------------------------------------
 
 --
@@ -851,7 +850,7 @@ CREATE TABLE `hs_terms` (
   `name` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `slug` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `term_group` bigint(10) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `hs_terms`
@@ -908,7 +907,7 @@ CREATE TABLE `hs_term_taxonomy` (
   `description` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `parent` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
   `count` bigint(20) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `hs_term_taxonomy`
@@ -1184,20 +1183,17 @@ ALTER TABLE `hs_links`
 -- AUTO_INCREMENT for table `hs_options`
 --
 ALTER TABLE `hs_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=354;
-
+MODIFY `option_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=354;
 --
 -- AUTO_INCREMENT for table `hs_postmeta`
 --
 ALTER TABLE `hs_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=412;
-
+MODIFY `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=288;
 --
 -- AUTO_INCREMENT for table `hs_posts`
 --
 ALTER TABLE `hs_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=199;
-
+MODIFY `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=146;
 --
 -- AUTO_INCREMENT for table `hs_termmeta`
 --
@@ -1208,14 +1204,12 @@ ALTER TABLE `hs_termmeta`
 -- AUTO_INCREMENT for table `hs_terms`
 --
 ALTER TABLE `hs_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
+MODIFY `term_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `hs_term_taxonomy`
 --
 ALTER TABLE `hs_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
+MODIFY `term_taxonomy_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `hs_usermeta`
 --
