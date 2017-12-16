@@ -1513,12 +1513,12 @@ a:hover .lnk-icon-right {
 .breadcrumb-nav, .breadcrumb-nav span {
     color: #ffffff;
 }
-
+/*
 .page-inner{
-	padding-top:70px;
-	padding-bottom:60px;
+	padding-top:30px;
+	padding-bottom:40px;
 	}
-
+*/
 /* post list*/
 
 .post-single .post-img,
