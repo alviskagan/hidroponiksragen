@@ -23,13 +23,11 @@
   
     <div class="sub-footer">
       <div class="container">
-        <div class="row">
-         
-          <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+        <div class="row text-center">
             <div class="wow fadeInRight animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
               <div class="text-center margintop-30 avata-copyright">
               <?php $copyright = wp_kses(avata_option('copyright'), $allowedposttags); ?>
-                  <ul><p><?php echo $copyright;?> &nbsp;&nbsp; <?php printf(__('Designed by <a href="%s">KOMSI A3ND</a>.','avata'),esc_url('http://www.hoothemes.com/'));?></p></ul>
+                  <ul><p><?php echo $copyright;?> &nbsp;&nbsp; <?php printf(__(' ','avata'),esc_url('http://www.hoothemes.com/'));?></p></ul>
                   <ul class="social">
                       <?php
                     $footer_social_icons = avata_option('footer_social_icons');
@@ -50,7 +48,6 @@
                               </ul>       
               </div>
             </div>
-          </div>
            
           </div>
         </div>

@@ -507,7 +507,7 @@ ul > li > i{
 	font-size: 23px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	color: #000000;
+	color: #ffffff;
 	display: initial;
 	vertical-align: middle;
 	font-weight: 600;
@@ -529,7 +529,7 @@ img.site-logo {
 }
 .site-name {
     margin: 0 0 2px 0;
-    color: #595959;
+    color: #ffffff;
     font-size: 24px;
     font-weight: normal;
     line-height: 1;
