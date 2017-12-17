@@ -27,7 +27,7 @@ if ($left_sidebar != '' && $left_sidebar != '0' && $right_sidebar != '' && $righ
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php if($hide_page_titlebar !='1'){?>
-  <section class="page-title-bar title-center no-subtitle" >
+  <section class="page-title-bar title-center no-subtitle" style="background-image: url(http://localhost/hidroponiksragen/wp-content/uploads/2017/12/202146-1.jpg);">
     <div class="<?php echo $container;?>">
       <hgroup class="page-title text-light text-center">
         <h2><?php the_title();?></h2>
