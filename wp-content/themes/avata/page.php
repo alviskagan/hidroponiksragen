@@ -32,6 +32,7 @@ if ($left_sidebar != '' && $left_sidebar != '0' && $right_sidebar != '' && $righ
       <hgroup class="page-title text-light text-center">
         <h2><?php the_title();?></h2>
       </hgroup>
+      <!-- <div class="breadcrumb-nav breadcrumbs text-center text-light" itemprop="breadcrumb"> <?php avata_breadcrumbs();?></div> -->
       <div class="clearfix"></div>
     </div>
   </section>
