@@ -1442,14 +1442,18 @@ a:hover .lnk-icon-right {
 2.0 PAGE 
 ///////////////////////////////////////////////////
 */
-
 .page-title-bar,
 .post-title-bar {
+    background-size: cover;
+	padding: 50px 0 30px;
+    background-color: #81d742;
+}
+.page-title-menu,
+.post-title-menu {
     background-size: cover;
 	padding: 30px 0 30px;
     background-color: #81d742;
 }
-
 .page-title h2 {
 	font-size: 36px;
 	line-height: 1;
