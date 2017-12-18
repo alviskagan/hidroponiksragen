@@ -1533,7 +1533,8 @@ a:hover .lnk-icon-right {
     position: relative;
 }
 .post-cat{
-	margin-bottom:10px;
+	margin-bottom:0px;
+    margin-top: 15px;
 	}
 .post-list .post-single .post-desk.no-img{
 	padding: 20px 0 40px;
