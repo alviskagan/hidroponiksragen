@@ -1533,7 +1533,8 @@ a:hover .lnk-icon-right {
     position: relative;
 }
 .post-cat{
-	margin-bottom:10px;
+	margin-bottom:0px;
+    margin-top: 15px;
 	}
 .post-list .post-single .post-desk.no-img{
 	padding: 20px 0 40px;
@@ -2058,7 +2059,7 @@ a:hover .lnk-icon-right {
 }
 .widget-title {
     font-size: 18px;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 15px;
     position: relative;
     text-transform: uppercase;
@@ -2161,7 +2162,7 @@ footer .widget_search .search-form{
     left: 0;
 }
 .sub-footer {
-    padding: 50px 0 20px;
+    padding: 40px 0 10px;
 }
 ul.social {
     list-style: none;
@@ -2913,7 +2914,7 @@ section .no-padding{
 	padding-bottom:100px;
 	}
 .section.fp-auto-height.footer{
-	padding-top:0;
+	padding-top:15px;
 	padding-bottom:0;
 	}
 	
